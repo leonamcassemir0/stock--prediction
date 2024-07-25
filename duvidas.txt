@@ -1,0 +1,34 @@
+DÚVIDAS!
+
+-> .shift()
+	- Essa função recebe um parâmetro escalar chamado período, que representa o número de deslocamentos a serem feitos no eixo desejado. Essa função é muito útil ao lidar com dados de 	séries temporais.
+
+-> np.array()
+	- numpy.array(object, 
+	dtype=None, *, 	
+	copy=True, 
+	order='K', 
+	subok=False, 	
+	ndmin=0, 
+	like=None)
+	- Após object, todos os outros parametros são opcionais.
+
+-> preprocessing.scale()
+
+
+-> .dropna()
+	- Remove todas as linhas com valor NULL.
+
+-> train_test_split()
+	- Divide matrizes em subconjuntos aleatórios de treinamento e teste.
+	- .train_test_split(*arrays,
+	test_size=None,
+	train_size=None,
+	random_state=None, 
+	shuffle=True, 
+	stratify=None)
+	- random_state controla o embaralhamento aplicado aos dados antes de aplicar a divisão.
+	- shuffle diz se é ou não para embaralhar antes de dividir.
+	
+.score()
+.predict()
